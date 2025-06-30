@@ -82,13 +82,13 @@ const checkWinner = () => {
             if (pos1Val1 === pos1Val2 && pos1Val2 === pos1Val3){
                 console.log("Winner",pos1Val1);
                 showWinner(pos1Val1);
-                return true;
+                // return true;
             }
         }
 
         
     }
-    return false;
+    // return false;
 };
 
 newGameBtn.addEventListener("click",resetGame);
