@@ -66,10 +66,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2 rem;
 
 }
 
 .hide{
    display : none;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+    
+}
+.blue{
+    color: blue;
+    font-weight: bold;
 }
